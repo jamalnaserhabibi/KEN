@@ -1,6 +1,6 @@
 0: TODO: match column-names with data in file "unpaidstude....."
 6: replace none-parameter queryies to parameters query
-3: validation in inputs
+3: validation in inputs of all forms
 7: think about user account update and password recovery ????
 1: use comments in the code
 5: wrtie about database terms in Documentation 
