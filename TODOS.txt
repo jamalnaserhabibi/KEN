@@ -3,6 +3,6 @@
 3: validation in inputs
 7: think about user account update and password recovery ????
 1: use comments in the code
-5: wrtie about database in Documentation
+5: wrtie about database terms in Documentation 
 4: slide
 5: work on book sales
