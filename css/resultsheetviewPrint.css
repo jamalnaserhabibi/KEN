@@ -1,0 +1,31 @@
+body{
+    font-family: 'Century Gothic',Andalus , mama ,'Century Gothic';
+    background-image: none;
+    margin: 20;
+    padding: 20;
+}
+.buttons{
+    display: none;
+}
+
+.top{
+    background-color: transparent;
+    border-radius: 0px 0px 20px 20px ;
+}
+
+.tblusers{
+   background-color: transparent;
+    margin-top: 90px;
+}
+.seek input{
+    display: none;
+}
+.seek img{
+    display: none;
+}
+.titleonview{
+    display: none;
+}
+html{
+    size: A4;
+}

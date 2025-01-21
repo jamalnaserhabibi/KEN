@@ -1,0 +1,22 @@
+.top{
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(217, 57, 53, 0.9);
+
+}
+.middle{
+    width: 70rem;
+    height: 100rem;
+    padding: 140px 40px 40px 40px;
+    background-image: url(../backgrounds/bg5.jpg);
+    background-size: cover;
+    border: 2px solid #D93935;
+
+}
+body{
+    background-image: none;
+
+}
+.buttons{
+    display: none;
+}

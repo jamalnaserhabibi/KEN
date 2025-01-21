@@ -1,0 +1,116 @@
+*{ font-family: 'Century Gothic',Andalus , mama ,'Century Gothic';}
+body{
+    font-family: 'Century Gothic',Andalus , mama ,'Century Gothic';
+    background-image: url(../backgrounds/bg3.jpg);
+    background-size: cover;
+    margin: 20;
+    padding: 20;
+}
+.maincontaner{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* margin-bottom: 11%;    */
+}
+.top{
+    padding: 10px 0px 0px 0px;
+    width: 95%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin: -15px 10px;
+    border-radius: 0px 0px 40px 40px ;
+    position: fixed ;
+    left: 2%;
+    box-shadow: 0px 1px 10px 0px rgba(36, 36, 36, 0.322);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.top h2{
+    color: #D93935;
+}
+.top img{
+    height: 55px;
+}
+ .tblusers{
+    background-color: rgba(255, 255, 255, 0.685);
+    margin: 80px 25px;
+    border-radius: 40px;
+    padding: 20px;
+    width: max-content;
+}
+
+.tablehead{
+    width: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+.tablehead h3{
+    margin: 10px;
+    margin-top: -15px;
+}
+.tablehead input{
+    width: 120vh;
+    height: 40px;
+    margin: 5px 0px;
+    outline: none;
+    margin-top: -10px;
+    padding:  6px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: -50px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    box-shadow: 0px 1px 10px 0px rgba(36, 36, 36, 0.103);
+
+}
+.tablehead img{
+    margin-top: -5px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+
+.data{
+border-radius: 20px;
+}
+/* div::-webkit-scrollbar{
+    display: none;
+} */
+.buttons{
+    width: 95%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin: -10px 10px;
+    padding: 10px 0px;
+    border-radius: 40px 40px 0px 0px;
+    position: fixed ;
+    left: 2%;
+    bottom: 0;
+    box-shadow: 0px 1px 10px 0px rgba(36, 36, 36, 0.322);
+}
+.buttons button{
+    outline: none;
+    padding: 5px;
+   height:50px;
+  width:190px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color:  #D93935 ;
+    color: white;
+}
+.buttons button:hover{
+    background-color: rgba(217, 57, 53, 0.88);
+     border-radius: 30px;
+   cursor: pointer;
+     }
+.printdata{
+    display: none;
+}

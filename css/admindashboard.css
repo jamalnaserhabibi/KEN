@@ -1,0 +1,333 @@
+* {
+    font-family: 'Century Gothic', Andalus, mama, 'Century Gothic';
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+}
+
+body {
+    font-family: 'Century Gothic', Andalus, mama, 'Century Gothic';
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../backgrounds/bg6.jpg);
+    background-size: cover;
+}
+
+.MainContainer {
+    display: flex;
+    margin-top: 10px;
+    margin: 10px;
+    padding: 0px;
+    /*background-color: red;*/
+    height: 97vh;
+}
+
+.navbar {
+    height: 610px;
+    width: 1.9rem;
+    transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: -10px;
+    padding: 0px;
+
+}
+
+.navbar::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.navbar:hover {
+    /* box-shadow: 1px 0px 60px 2px rgba(36, 36, 36, 0.322); */
+    height: 610px;;
+    opacity: 1;
+    padding: 10px;
+    width: 17rem;
+    /* background-image: linear-gradient( rgba(109, 109, 109, 0.107),rgba(27, 27, 27, 0.052)) ; */
+    border-radius: 0px 40px 40px 0px;
+    /* border-right: 3px solid rgba(0, 0, 0, 0.226); */
+}
+
+.userdata {
+    text-align: center;
+}
+
+.userdata img {
+    padding: 5px;
+    height: 135px;
+    width: 135px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(255, 255, 255, 0.548));
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px 0px #24242465;
+    transition: 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.userdata img:hover {
+    border: 0px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.548), rgba(0, 0, 0, 0.548));
+    height: 145px;
+    width: 145px;
+    padding: 5px;
+}
+
+.nav {
+    width: 190px;
+    height: 23px;
+    margin: 1px 0px;
+    margin-left: -14px;
+    padding: 5px 0px 5px 15px;
+    border-radius: 0px 50px 50px 0px;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 10px;
+    display: flex;
+}
+
+.nav a {
+    margin: -2px;
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.nav button {
+    text-align: left;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: transparent;
+
+}
+
+.nav:hover {
+    width: 195px;
+    margin: 1px 0px;
+    margin-left: -14px;
+    padding: 5px 0px 5px 25px;
+    box-shadow: 1px 0px 20px 0px rgba(36, 36, 36, 0.322);
+    cursor: pointer;
+    background-image: radial-gradient(closest-side at 2% 50%, #D93935, #D93935, #D93935, #D93935, #D9393500);
+}
+
+.nav button:hover {
+    color: #D93935;
+    cursor: pointer;
+}
+
+.userdata h2 {
+    letter-spacing: 4px;
+    margin-top: -3px;
+    color: rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.userdata h5 {
+    margin: -20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.userdata h2:hover {
+    letter-spacing: 6px;
+    color: #D93935;
+
+}
+
+.rightpane {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*padding: 10px 10px 0px 10px;*/
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainnavbar {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    height: 100%;
+    width: 100%;
+
+    /*background-color: rgba(255, 0, 0, 0.67);*/
+    /*border-radius: 40px;*/
+}
+
+.topnavbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+    padding: 5px 0px;
+    align-items: center;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.topnavbar h2 {
+    color: #D93935;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.totals {
+    margin: 20px 0px;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    height: 7rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+}
+
+.totals h1 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.totals h4 {
+    margin: 0px 0px;
+    color: #D93935;
+    font-size: 25px;
+}
+
+.totals h4:hover {
+    font-size: 28px;
+
+}
+
+.graphs {
+    display: flex;
+    /*margin-top: 15px;*/
+    width: 100%;
+    height: 90%;
+}
+
+.first, .second {
+    /* margin: 10px; */
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin:3px;*/
+    color: #D93935;
+}
+
+.topnavbar h4 {
+    font-size: 15px;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.topnavbar button {
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-right: -15px;
+    outline: none;
+    padding: 5px 10px;
+    height: 35px;
+    width: 110px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #D93935;
+    color: white;
+}
+
+.topnavbar button:hover {
+    background-color: rgba(217, 57, 53, 0.67);
+    border-radius: 20px;
+    cursor: pointer;
+    /*width: 115px;*/
+    letter-spacing: 1px;
+}
+
+.topnavbar h3:hover {
+    /*font-size: 20px;*/
+    letter-spacing: 1px;
+}
+
+.topnavbar h2:hover {
+    /*font-size: 26px;*/
+    letter-spacing: 1px;
+}
+
+.topnavbar span {
+    color: #D93935;
+}
+
+.pointer {
+    position: absolute;
+    top: 20px;
+    left: -275px;
+    color: #D93935;
+    z-index: -877;
+    height: 130px;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.buttom {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    height: 5rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: left;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #D93935;
+}
+
+.navigations div {
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.navigations {
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.nav img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+.charts{
+    height: 350px;
+}
+.charts:hover{
+    height: 370px;
+}
+.totals span{
+    color: #D93935;
+}

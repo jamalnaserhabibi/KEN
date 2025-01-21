@@ -1,0 +1,41 @@
+body{
+    font-family: 'Century Gothic',Andalus , mama ,'Century Gothic';
+    background-image: none;
+    margin: 20;
+    padding: 20;
+}
+.buttons{
+    display: none;
+}
+.printdata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -10px 0px 0px 0px;
+    color: gray;
+}
+.top{
+    padding: 10px;
+    border-radius:40px ;
+    margin-top: 2px;
+    margin-left: 25px;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+.top h2{
+    color: #D93935;
+}
+.tblusers{
+    background-color: rgba(0, 0, 0, 0.048);
+    margin-top: 90px;
+}
+.seek input{
+    display: none;
+}
+.seek img{
+    display: none;
+}
+.operation{
+    display: none;
+}

@@ -1,0 +1,100 @@
+*{font-family: 'Century Gothic', mama ,'Century Gothic';}
+body{
+    font-family: 'Century Gothic',Andalus , mama ,'Century Gothic';
+    background-image: url(../backgrounds/bg3.jpg);
+    background-size: cover;
+}
+.maincontaner{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+.top{
+    width: 90%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.top img{
+    height: 60px;
+}
+.top h2{
+    color: #D93935;
+}
+
+.inputs{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+    padding: 10px 320px;
+    width: 90%;
+text-align: center;
+}
+.inputs .contain{
+    /*background-color: rgb(217, 57, 53);*/
+    border: 1px solid rgba(217, 57, 53, 0.31);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.ttt{
+    /*margin: 5px;*/
+    outline: none;
+    padding:  8px 20px;
+   width:100%;
+    border: none;
+    border-radius: 16px;
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+}
+.bbb {
+    margin: 10px;
+    outline: none;
+    padding: 0px;
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    transition: 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #D93935;
+    color:  white;
+}
+.beside{
+    padding: 15px 40px;
+
+}
+.beside:hover{
+    text-decoration: none;
+}
+h4{
+    color: rgb(63, 63, 63);
+}
+
+.bbb:hover{
+   background-color: rgba(217, 57, 53, 0.84);
+    border-radius: 30px;
+    color: white;
+    }
+.controls{
+    margin: 0px;
+    width: 90%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 40px;
+}
+.datediv div{
+    width: 100%;
+}
+.datediv div select{
+    text-align: center;
+}
